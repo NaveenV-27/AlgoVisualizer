@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Navbar = () => {
 return (
@@ -8,7 +9,9 @@ return (
                 Algorithm visualizer
             </div>
             <div>
-                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" className='h-8 w-8 invert cursor-pointer' />
+                <Link ref={'/'}>
+                    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" className='h-8 w-8 invert cursor-pointer ' />
+                </Link>
             </div>
         </div>
     </div>
