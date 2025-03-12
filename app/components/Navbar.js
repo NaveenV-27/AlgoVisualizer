@@ -9,7 +9,7 @@ return (
                 Algorithm visualizer
             </div>
             <div>
-                <Link ref={'/'}>
+                <Link href={'https://github.com/NaveenV-27'}>
                     <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" className='h-8 w-8 invert cursor-pointer ' />
                 </Link>
             </div>
